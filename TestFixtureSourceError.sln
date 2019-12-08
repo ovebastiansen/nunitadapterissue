@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29512.175
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestFixtureSourceError", "TestFixtureSourceError\TestFixtureSourceError.csproj", "{4A29366E-BEB6-49DF-B26A-A3B0FBAA049A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{52C4C9DF-D949-42BC-B711-507FD7E851AB}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.Config = NuGet.Config
+	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestFixtureSourceWorkAround", "TestFixtureSourceWorkAround\TestFixtureSourceWorkAround.csproj", "{88F21120-600F-4B57-87CC-A1000351935D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FixtureSourceError.Tests", "FixtureSourceError.Tests\FixtureSourceError.Tests.csproj", "{27F98C79-6EAE-4253-9878-3A098331FC2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FixtureSourceWorkAround.Tests", "FixtureSourceWorkAround.Tests\FixtureSourceWorkAround.Tests.csproj", "{B5A5B328-2553-47D8-824B-9A71A82CD5B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +18,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4A29366E-BEB6-49DF-B26A-A3B0FBAA049A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A29366E-BEB6-49DF-B26A-A3B0FBAA049A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4A29366E-BEB6-49DF-B26A-A3B0FBAA049A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A29366E-BEB6-49DF-B26A-A3B0FBAA049A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{88F21120-600F-4B57-87CC-A1000351935D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88F21120-600F-4B57-87CC-A1000351935D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88F21120-600F-4B57-87CC-A1000351935D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88F21120-600F-4B57-87CC-A1000351935D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F98C79-6EAE-4253-9878-3A098331FC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F98C79-6EAE-4253-9878-3A098331FC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F98C79-6EAE-4253-9878-3A098331FC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F98C79-6EAE-4253-9878-3A098331FC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5A5B328-2553-47D8-824B-9A71A82CD5B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A5B328-2553-47D8-824B-9A71A82CD5B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A5B328-2553-47D8-824B-9A71A82CD5B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A5B328-2553-47D8-824B-9A71A82CD5B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
